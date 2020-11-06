@@ -6,7 +6,7 @@ import { useRouter, withRouter } from 'next/router';
 
 
 // Components
-import Headline from "../../components/common/Headline";
+import Headline from "../../components/common/headline";
 
 function PortfolioDetails() {
     const router = useRouter()
