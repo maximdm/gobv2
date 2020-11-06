@@ -1,0 +1,78 @@
+// All CSS Here
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+
+@import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/slick-carousel/slick/slick-theme.scss";
+@import "../styles/css/plugins.scss";
+@import "../styles/scss/style.scss";
+
+
+
+
+
+@import "../styles/scss/default/variables";
+@import "../styles/scss/default/mixins";
+@import "../styles/scss/default/reset";
+@import "../styles/scss/default/typography";
+@import "../styles/scss/default/animations";
+@import "../styles/scss/default/spacing";
+@import "../styles/scss/default/helpers";
+
+/*------------------------------------
+    Structure Styles
+------------------------------------*/
+
+@import "../styles/scss/structure/header";
+@import "../styles/scss/structure/footer";
+@import "../styles/scss/structure/wrapper";
+@import "../styles/scss/structure/sidenav";
+@import "../styles/scss/structure/sidebar";
+@import "../styles/scss/structure/content";
+@import "../styles/scss/structure/container";
+
+/*------------------------------------
+    Elements Styles
+------------------------------------*/
+
+@import "../styles/scss/elements/icon";
+@import "../styles/scss/elements/form";
+@import "../styles/scss/elements/button";
+@import "../styles/scss/elements/common";
+
+/*------------------------------------
+    Sections Styles
+------------------------------------*/
+
+@import "../styles/scss/sections/hero";
+@import "../styles/scss/sections/about";
+@import "../styles/scss/sections/posts";
+@import "../styles/scss/sections/users";
+@import "../styles/scss/sections/quotes";
+@import "../styles/scss/sections/common";
+@import "../styles/scss/sections/search";
+@import "../styles/scss/sections/contact";
+@import "../styles/scss/sections/features";
+@import "../styles/scss/sections/services";
+@import "../styles/scss/sections/comments";
+@import "../styles/scss/sections/portfolio";
+@import "../styles/scss/sections/testimonials";
+@import "../styles/scss/sections/call-to-action";
+@import "../styles/scss/sections/pricing-tables";
+
+/*------------------------------------
+    Other Styles
+------------------------------------*/
+
+@import "../styles/scss/other/demo-options";
+@import "../styles/scss/other/theme-preview";
+@import "../styles/css/plugins";
+
+.logo_go{
+    box-sizing: content-box;
+    display: flex;
+   transform: translateY(90%);
+   justify-content: center;
+   align-content: center;
+    
+}
