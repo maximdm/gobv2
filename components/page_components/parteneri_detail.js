@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Container } from "react-grid-system";
 import { FaQuoteRight } from "react-icons/fa";
-import portfolio from "../../components/common/tables/parteneri_table";
+
 // Components
-import Headline from "../../components/common/Headline";
+import Headline from "../../components/common/headline";
 
 class  PortfolioDetails extends Component {
     render() 

@@ -4,7 +4,7 @@ import  Link  from "next/link";
 import { Container } from "react-grid-system";
 
 // Components
-import Headline from "../../components/common/Headline";
+import Headline from "../../components/common/headline";
 import posts from "../../components/common/tables/blog_table";
 
 

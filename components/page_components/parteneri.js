@@ -1,11 +1,11 @@
 import React from "react";
-import Link from 'next/link';
+
 import Cards from '../common/portofoliu/card'
 
 // Components
 import { Container, Row, Col } from "react-grid-system";
-import Headline from "../../components/common/Headline";
-import portfolio from "../../components/common/tables/parteneri_table";
+import Headline from "../../components/common/headline";
+
 
 
 function Parteneri() {

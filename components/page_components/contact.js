@@ -4,7 +4,7 @@ import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 // Components
 import Icon from "../about_icon";
-import Headline from "../../components/common/Headline";
+import Headline from "../../components/common/headline";
 
 function Contact() {
     return (
